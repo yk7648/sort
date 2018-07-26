@@ -25,7 +25,7 @@ void quick_sort(int A[], int n){
       l++;
       //小さいの前に
     }
-    else if(A[i] != 0){
+    else if(A[i] != pivot){
         r--;
         int z = A[r];
         A[r] = A[i];

@@ -23,7 +23,7 @@ int quick_select(int A[], int n, int k){
       l++;
       //小さいの前に
     }
-    else if(A[i] != 0){
+    else if(A[i] != pivot){
         r--;
         int z = A[r];
         A[r] = A[i];
